@@ -9,6 +9,16 @@ An enterprise-grade, fault-tolerant financial tracking backend built on **Google
 
 ---
 
+## 🚀 Live Demo Template (Instant Copy)
+
+Want to test the automated tracking engine and custom UI menu right in your own Google Drive? 
+
+👉 **[Make an Instant Copy of the Google Sheets Template](https://docs.google.com/spreadsheets/d/1L21B9AgbWAbFj5bB8g9sn-2EjJSUd5E2qbkR3bu5hh4/copy)** *(Replace YOUR_SPREADSHEET_ID_HERE with your viewable template ID)*
+
+Once copied, open the spreadsheet, wait 3 seconds for the `⚡ Automation (API Tracker)` menu to initialize, and click **`🔄 Update Prices Now`**!
+
+---
+
 ## 💡 Business Value & Solving Real-World Cloud API Limitations
 
 When automating external REST API calls from cloud environments like Google Apps Script or AWS Lambda, single-source public APIs often fail due to two critical infrastructure barriers:
@@ -42,32 +52,3 @@ graph TD
     SheetSet -->|If Breached: Min/Max| Alert[Notification Dispatcher]
     Alert -->|MailApp.sendEmail| Email[Email Stakeholder Alert]
     Alert -->|Telegram Bot POST| Telegram[Telegram Bot Alert]
-```
-
----
-
-## ✨ Key Technical Features
-
-- **🛡️ Universal Fault Tolerance:** Immune to cloud datacenter IP restrictions (`HTTP 429` / `HTTP 451`). Automatically switches between 3 global API providers.
-- **🎛 Custom Spreadsheet Toolbar Menu:** Adds a dedicated `⚡ Automation (API Tracker)` menu inside Google Sheets with options for instant updates, structure initialization, and one-click trigger setup.
-- **📊 Dynamic Price Thresholds:** Each tracked asset supports configurable boundaries (`Min Threshold`, `Max Threshold`). When breached, asset status updates immediately to `🔥 ABOVE MAX` or `❄️ BELOW MIN`.
-- **⚡ High-Performance Batch Processing:** To avoid Google Apps Script execution quotas and timeouts, historical entries are aggregated in memory and written via a single batch `Range.setValues()` call.
-
----
-
-## 🚀 Quickstart & Setup Guide
-
-1. Create a blank spreadsheet in [Google Sheets](https://sheets.google.com).
-2. Navigate to **Extensions → Apps Script**.
-3. Copy the entire contents of `Code.gs` from this repository and paste it into the editor.
-4. Click **Save (💾)** and refresh your Google Sheets browser tab.
-5. Click **`⚡ Automation (API Tracker) → 🛠 Initialize Spreadsheet Structure`** to format your sheets.
-6. Click **`⚡ Automation (API Tracker) → 🔄 Update Prices Now`** to see the Triple-Tier Failover engine update your table!
-
----
-
-## 👤 Developer / Freelance Hire & Customization
-
-This project was engineered to showcase senior backend automation capabilities utilizing **Google Workspace APIs**, **Google Apps Script ES6+**, and **resilient multi-tier REST failover architecture**.
-
-**Need custom fault-tolerant automation, CRM/Sheets integrations, or bespoke workflow development? Reach out to discuss your project requirements!**
