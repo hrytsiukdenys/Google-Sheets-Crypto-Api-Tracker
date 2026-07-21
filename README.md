@@ -13,7 +13,7 @@ An enterprise-grade, fault-tolerant financial tracking backend built on **Google
 
 Want to test the automated tracking engine and custom UI menu right in your own Google Drive? 
 
-👉 **[Make an Instant Copy of the Google Sheets Template](https://docs.google.com/spreadsheets/d/1L21B9AgbWAbFj5bB8g9sn-2EjJSUd5E2qbkR3bu5hh4/copy)** *(Replace YOUR_SPREADSHEET_ID_HERE with your viewable template ID)*
+👉 **[Make an Instant Copy of the Google Sheets Template](https://docs.google.com/spreadsheets/d/1L21B9AgbWAbFj5bB8g9sn-2EjJSUd5E2qbkR3bu5hh4/copy)**
 
 Once copied, open the spreadsheet, wait 3 seconds for the `⚡ Automation (API Tracker)` menu to initialize, and click **`🔄 Update Prices Now`**!
 
